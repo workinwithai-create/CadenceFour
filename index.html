@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CadenceFour — Four-bar cadence desk</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="shell">
+<header class="hero">
+<div class="eyebrow">Workin' With AI · Forge Desks</div>
+<h1>CadenceFour</h1>
+<p>Four-bar cadence desk for bedroom producers and AI-music finishers.<br>
+Stuck loops never land. Session players write a cadence so the pocket finally resolves.</p>
+</header>
+<div id="status" class="status">Tap to seat chairs…</div>
+<div class="controls">
+<label>BPM <input id="bpm" type="number" min="60" max="180" value="92"></label>
+<label>Key <select id="key"><option>A minor</option><option>C major</option><option>D minor</option><option>E major</option><option>G major</option></select></label>
+<label>Chords <input id="chords" type="text" value="Am F C G" placeholder="Am F C G"></label>
+<label>Bars <input id="bars" type="number" min="4" max="8" value="8"></label>
+</div>
+<div class="row">
+<button id="playA">A · Pocket loop</button>
+<button id="playB">B · Full form</button>
+<button id="playR">R · Resolve only</button>
+<button id="stop">Stop</button>
+</div>
+<div id="bars" class="bars"></div>
+<div class="row">
+<button id="exportWav">Export WAV</button>
+<button id="exportMid">Export MIDI</button>
+<button id="copy">Copy punch list</button>
+</div>
+<pre id="punch"></pre>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

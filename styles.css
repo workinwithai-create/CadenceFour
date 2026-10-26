@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; background: #111; color: #eee; margin: 0; }
+.shell { max-width: 960px; margin: 0 auto; padding: 1.5rem; }
+.hero h1 { margin: 0.2rem 0; }
+.eyebrow { letter-spacing: 0.08em; font-size: 0.75rem; opacity: 0.7; }
+.status { padding: 0.6rem; background: #222; border-radius: 6px; margin: 1rem 0; }
+.controls, .row { display: flex; gap: 0.6rem; flex-wrap: wrap; margin: 0.8rem 0; }
+.controls label { display: flex; flex-direction: column; font-size: 0.8rem; }
+input, select, button { background: #222; color: #eee; border: 1px solid #444; border-radius: 4px; padding: 0.4rem 0.6rem; }
+button:hover { background: #333; }
+.bars { display: flex; gap: 4px; flex-wrap: wrap; margin: 1rem 0; }
+.bar { width: 64px; padding: 0.4rem; background: #1a1a1a; border-radius: 4px; font-size: 0.75rem; text-align: center; }
+.bar.pocket { border-bottom: 2px solid #6cf; }
+.bar.resolve { border-bottom: 2px solid #fc6; }
+.bar.active { outline: 2px solid #fff; }
+#punch { background: #1a1a1a; padding: 1rem; white-space: pre-wrap; font-size: 0.85rem; border-radius: 6px; }

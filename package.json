@@ -1,0 +1,1 @@
+{"name":"cadencefour","private":true,"scripts":{"dev":"npx serve .","build":"echo static"}}
